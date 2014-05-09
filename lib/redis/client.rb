@@ -6,7 +6,7 @@ class Redis
   class Client
 
     DEFAULTS = {
-      :url => lambda { ENV["REDIS_URL"] },
+      :url => lambda { ENV["REDISTOGO_URL"] },
       :scheme => "redis",
       :host => "127.0.0.1",
       :port => 6379,
